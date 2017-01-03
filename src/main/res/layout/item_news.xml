@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000" />
+
+    <ImageView
+        android:id="@+id/iv_image"
+        android:layout_width="140dp"
+        android:layout_height="70dp"
+        android:background="@mipmap/pic_item_list_default" />
+
+    <TextView
+        android:id="@+id/tv_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/iv_image"
+        android:layout_toEndOf="@+id/iv_image"
+        android:layout_toRightOf="@+id/iv_image"
+        android:text="1970-10-1"
+        android:textColor="#000"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tv_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/iv_image"
+        android:layout_toRightOf="@+id/iv_image"
+        android:text="新闻新闻新闻新闻新闻新闻新闻新闻新闻"
+        android:textColor="#000"
+        android:textSize="18sp" />
+
+</RelativeLayout>
