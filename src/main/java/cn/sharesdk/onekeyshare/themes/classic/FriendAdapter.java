@@ -8,21 +8,22 @@
 
 package cn.sharesdk.onekeyshare.themes.classic;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-
 import android.graphics.drawable.ColorDrawable;
 import android.os.Handler.Callback;
 import android.os.Message;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView.OnItemClickListener;
-import cn.sharesdk.framework.Platform;
-import cn.sharesdk.framework.PlatformActionListener;
 
 import com.mob.tools.gui.PullToRefreshListAdapter;
 import com.mob.tools.gui.PullToRefreshView;
 import com.mob.tools.utils.UIHandler;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+
+import cn.sharesdk.framework.Platform;
+import cn.sharesdk.framework.PlatformActionListener;
 
 /** 好友列表的适配器 */
 public class FriendAdapter extends PullToRefreshListAdapter implements PlatformActionListener {
